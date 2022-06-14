@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Agency Virtual Assistant</title>
+    <link rel="icon" href="img/icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9b8103ef2f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<body>
+
+    <header class="encabezado" id="inicio">
+        <div class="contenido-navegacion">
+            <div class="logo">
+                <a href="#" class="logo-link"><img src="./img/logonew.png" alt="The Logo of Agency" class="logo-img"></a>
+            </div>
+
+            <nav class="navegacion ocultar">
+                <a class="nav-link" href="#inicio">Home</a>
+                <a class="nav-link" href="#nosotros">Abuout</a>
+                <a class="nav-link" href="#servicios">Services</a>
+                <a class="nav-link" href="#contacto">Contact</a>
+            </nav>
+            <div class="hamburguesa">
+                <span></span><span></span><span></span>
+            </div>
+                
+        </div>
+
+        <div class="contenido-encabezado contenedor">
+            <div class="texto-encabezado">
+                <h1 class="texto-title">Turbochart your businees<span> with virtual assistant</span></h1>
+        </div>
+    </header>
+
+    <div class="ventajas">
+        <div class="contenido-ventajas contenedor">
+            <div class="ventaja">
+                <i class="fas fa-clock"></i>
+                <h3>Deliveries in time and form</h3>
+               
+            </div>
+            <div class="ventaja">
+                <i class="fa fa-calendar"></i>
+                <h3>appointment scheduling</h3>
+            </div>
+            <div class="ventaja">
+                <i class="fa fa-envelope"></i>
+                <h3>Email management</h3>
+            </div>
+        </div>
+    </div>
+
+    <section class="nosotros contenedor" id="nosotros">
+        <h2>About Us</h2>
+        <div class="contenido-nosotros">
+
+            <div class="texto-nosotros">
+                <h3>We specialize in Admin, Data, and Research Work</h3>
+                <p> The Agency is the most convenient way to access quality virtual assistants to scale your business.</p>
+                    <!-- add new class for button to transfom it easyer nosotros-btn -->
+                <a href="#contacto" class="btn bordes nosotros-btn"> Get Assistants</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="servicios contenedor" id="servicios">
+        <h2>Services</h2>
+        <div class="contenido-servicios">
+            <div class="servicio reverse">
+                <div class="servicio-img_wrapper">
+                    <img src="./img/step-1.jpg" alt="#" class="servicio-image">
+                </div>
+                
+                <div class="servicio-text">
+                    <p class="servicio-step">Step 1</p>
+                    <h3 class="servicio-title">Discovery</h3>
+                    <p class="servicio-subtitle">Tell us what you need and our experts will curate a list of our best virtual assistants for the job..</p>
+                </div>
+                
+            </div>
+            <div class="servicio">
+                <div class="servicio-img_wrapper">
+                    <img src="./img/step-2.jpg" alt="#" class="servicio-image">
+                </div>
+                <div class="servicio-text">
+                    <p class="servicio-step">Step 2</p>
+                    <h3 class="servicio-title">Onboard</h3>
+                    <p class="servicio-subtitle">Once you choose your assistants, we’ll help onboard so they can start working for you immediately..</p>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+
+    <section class="contacto" id="contacto">
+        <h2>Contact Us</h2>
+        <div class="contenido-contacto">
+            <div class="informacion-contacto">
+                <h3>contact information</h3>
+                <p><a href="mailto:business@theagency-va.com" class="contacto-link">business@theagency-va.com</a></p>
+                <p><a href="tel:+50433047171" class="contacto-link">+504 33047171</a></p>
+            </div>
+            <form class="formulario-contacto" action="https://formspree.io/f/xeqndode"
+            method="POST"> 
+                <div class="input-contacto">
+                    <label for="nombre">Name</label>
+                    <input type="text" id="nombre" placeholder="Pedro Perez" name="name">
+                </div>
+                <div class="input-contacto">
+                    <label for="correo">e-mail</label>
+                    <input type="text" id="correo" placeholder="example@example.com" name="email">
+                </div>
+                <div class="input-contacto">
+                    <label for="telefono">Phone Number</label>
+                    <input type="text" id="telefono" placeholder="0808080808" name="phone">
+                </div>
+                <div class="input-contacto">
+                    <label for="telefono">Message</label>
+                    <textarea name="message"></textarea>
+                </div>
+                <div class="input-contacto">
+                    <input type="submit" value="Send" class="btn azul">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="logo">
+            <a href="#" class="logo-link"><img src="./img/logonew.png" alt="The Logo of Agency" class="logo-img"></a>
+            
+        </div>
+        <p>All rights reserved <span class="fecha"></span>  &copy; The Agency 2022</p>
+        <!-- add sociall network icons -->
+        <div class="footer_social-icons">
+            <a href="#" class="social-icons_link"><img class="social-icon_image" src="https://img.icons8.com/ios-filled/50/undefined/facebook-new.png"/></a>
+            <a href="#" class="social-icons_link"><img class="social-icon_image" src="https://img.icons8.com/ios-filled/50/undefined/instagram-new--v1.png"/></a>
+            
+            
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
